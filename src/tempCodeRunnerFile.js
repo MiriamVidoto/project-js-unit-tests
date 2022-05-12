@@ -1,11 +1,9 @@
-const myCounter = () => {
-  var myArray = [];
-  for (let counter = 0; counter <= 3; counter += 1) {
-    myArray.push(counter);
-    for (let counter2 = 2; counter2 <= 3; counter2 += 1) {
-      myArray.push(counter);
-    }
-  }
-  return myArray;
+const calculator = (number1, number2) => {
+  const operations = {
+    sum: number1 + number2,
+    mult: number1 * number2,
+    div: Math.floor(number1 / number2),
+    sub: Math.abs(number1 - number2),
+  };
 };
-console.log(myCounter());
+console.log(1, 2);
