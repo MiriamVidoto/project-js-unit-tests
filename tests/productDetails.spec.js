@@ -37,7 +37,8 @@ describe('6 - Implemente os casos de teste para a função `productDetails`', ()
         const product = productDetails('Alcool gel', 'Máscara');
         expect(typeof productDetails).toBe('function');
     // Teste se o retorno da função é um array.
-        expect(typeof product).toBe('object');
+    // referencia: https://www.w3schools.com/jsref/jsref_isarray.asp
+        expect(Array.isArray(product)).toBeTruthy();
     // Teste se o array retornado pela função contém dois itens dentro.
       expect(product).toHaveLength(2);
     // Teste se os dois itens dentro do array retornado pela função são objetos.
@@ -46,6 +47,10 @@ describe('6 - Implemente os casos de teste para a função `productDetails`', ()
     // Teste se quando passado parâmetros diferentes entre si, os dois objetos também são diferentes entre si.
     expect(product[0]).not.toBe(product[1]);
   //   Teste se os dois productIds terminam com 123.
-  //   expect(product).toContainEqua(123)
+  //   referencia: https://www.w3schools.com/jsref/jsref_endswith.asp
+  const productId1 = product[0].details.productId;
+  const productId2 = product[1].details.productId;
+  expect(productId1.endsWith(123)).toBeTruthy();
+  expect(productId2.endsWith(123)).toBeTruthy();
   });
 });
