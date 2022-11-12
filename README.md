@@ -1,10 +1,12 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Boas-vindas ao repositório do projeto de Testes Unitários!
+
+Este foi um projeto realizado durante o meu curso na Trybe.
+
+Foi desenvolvido a implementação dos testes unitários para garantir as implementações das funções que já estavam corretas.
+
+Foi utilizado TDD durante o desenvolvimento de todo o projeto.
+
+Nesse projeto, eu aprimorei minhas habilidades de: 
+- Escrever testes unitários utilizando o módulo Jest do NodeJS para verificar o correto funcionamento das funções;
+- Escrever funções de forma que elas atendam a testes já implementados;
+- Escrever testes e funções utilizando uma abordagem de desenvolvimento orientado a testes.
